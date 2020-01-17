@@ -1,0 +1,339 @@
+2019-12-19 13:37:29,161 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-12-19 13:37:29,186 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2019-12-19 13:37:29,187 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2019-12-19 13:37:29,190 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-12-19 13:37:29,190 INFO o.a.j.JMeter: Version 5.2.1
+2019-12-19 13:37:29,190 INFO o.a.j.JMeter: java.version=1.8.0_231
+2019-12-19 13:37:29,190 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-12-19 13:37:29,191 INFO o.a.j.JMeter: os.name=Windows 10
+2019-12-19 13:37:29,191 INFO o.a.j.JMeter: os.arch=amd64
+2019-12-19 13:37:29,191 INFO o.a.j.JMeter: os.version=10.0
+2019-12-19 13:37:29,191 INFO o.a.j.JMeter: file.encoding=Cp1252
+2019-12-19 13:37:29,192 INFO o.a.j.JMeter: java.awt.headless=null
+2019-12-19 13:37:29,192 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-12-19 13:37:29,192 INFO o.a.j.JMeter: Available Processors =4
+2019-12-19 13:37:29,198 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-12-19 13:37:29,199 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-12-19 13:37:29,199 INFO o.a.j.JMeter: JMeterHome=E:\sdet_training\JMeter\apache-jmeter-5.2.1
+2019-12-19 13:37:29,199 INFO o.a.j.JMeter: user.dir  =E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin
+2019-12-19 13:37:29,200 INFO o.a.j.JMeter: PWD       =E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin
+2019-12-19 13:37:29,201 INFO o.a.j.JMeter: IP: 192.168.1.127 Name: DESKTOP-RU7VQSE FullName: DESKTOP-RU7VQSE
+2019-12-19 13:37:31,596 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2019-12-19 13:37:31,692 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2019-12-19 13:37:31,693 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2019-12-19 13:37:32,066 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-12-19 13:37:36,064 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-12-19 13:37:36,065 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-12-19 13:37:36,065 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-12-19 13:37:36,065 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-12-19 13:37:36,065 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-12-19 13:37:36,065 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-12-19 13:37:39,334 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-12-19 13:37:39,335 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2019-12-19 13:37:39,579 INFO o.a.j.s.FileServer: Default base='E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin'
+2019-12-19 13:37:40,491 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-12-19 13:37:40,491 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-12-19 13:37:40,491 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-12-19 13:37:40,491 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-12-19 13:44:08,921 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\templates\templates.xml
+2019-12-19 13:44:49,874 INFO o.a.j.g.a.Load: Loading file: C:\Users\SONY\AppData\Local\Temp\Recording4301290584471187316.output
+2019-12-19 13:44:50,214 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-12-19 13:44:50,231 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-12-19 13:44:50,234 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-12-19 13:44:50,240 INFO o.a.j.s.SaveService: Loading file: C:\Users\SONY\AppData\Local\Temp\Recording4301290584471187316.output
+2019-12-19 13:44:50,280 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2019-12-19 13:50:22,577 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-12-19 13:50:22,577 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-12-19 13:50:23,216 INFO o.a.j.p.h.p.ProxyControl: Creating HTTP(S) Test Script Recorder Root CA in E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks, ensure you install certificate in your Browser for recording
+2019-12-19 13:50:28,385 INFO o.a.j.p.h.p.ProxyControl: Created keystore in E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2019-12-19 13:50:28,414 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8089
+2019-12-19 13:50:28,419 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2019-12-19 13:51:02,264 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2019-12-19 13:51:02,281 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-RU7VQSE
+2019-12-19 13:51:02,291 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-12-19 13:51:02,952 INFO o.a.j.p.h.p.ProxyControl: [59424]  Creating entry phptravels.net in E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2019-12-19 13:51:03,080 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-12-19 13:51:05,760 INFO o.a.j.p.h.p.Proxy: [59424]  KeyStore for SSL loaded OK and put host 'phptravels.net' in map with key (phptravels.net)
+2019-12-19 13:51:06,085 INFO o.a.j.p.h.p.ProxyControl: [59427]  Creating entry mitmdetection.services.mozilla.com in E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2019-12-19 13:51:06,114 WARN o.a.j.p.h.p.Proxy: [59424]  Problem with SSL certificate for url  for 'phptravels.net'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2019-12-19 13:51:08,427 INFO o.a.j.p.h.p.Proxy: [59427]  KeyStore for SSL loaded OK and put host 'mitmdetection.services.mozilla.com' in map with key (mitmdetection.services.mozilla.com)
+2019-12-19 13:51:08,483 WARN o.a.j.p.h.p.Proxy: [59427]  Problem with SSL certificate for url  for 'mitmdetection.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2019-12-19 13:51:08,745 WARN o.a.j.p.h.p.Proxy: [59434]  Problem with SSL certificate for url  for 'phptravels.net'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2019-12-19 13:51:22,519 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2019-12-19 13:51:22,526 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-12-19 13:51:22,526 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-12-19 13:51:22,713 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2019-12-19 13:51:22,715 INFO o.a.j.u.SSLManager: KeyStore created OK
+2019-12-19 13:51:22,716 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2019-12-19 13:51:24,857 INFO o.a.j.p.h.p.ProxyControl: [59443]  Creating entry www.phptravels.net in E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2019-12-19 13:51:27,816 INFO o.a.j.p.h.p.Proxy: [59443]  KeyStore for SSL loaded OK and put host 'www.phptravels.net' in map with key (www.phptravels.net)
+2019-12-19 13:51:27,855 WARN o.a.j.p.h.p.Proxy: [59443]  Problem with SSL certificate for url  for 'www.phptravels.net'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2019-12-19 13:51:56,192 INFO o.a.j.p.h.p.ProxyControl: [59460]  Creating entry www.googletagmanager.com in E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2019-12-19 13:51:59,798 INFO o.a.j.p.h.p.ProxyControl: [59453]  Creating entry fonts.googleapis.com in E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2019-12-19 13:51:59,801 INFO o.a.j.p.h.p.Proxy: [59460]  KeyStore for SSL loaded OK and put host 'www.googletagmanager.com' in map with key (www.googletagmanager.com)
+2019-12-19 13:51:59,840 WARN o.a.j.p.h.p.Proxy: [59460]  Problem with SSL certificate for url  for 'www.googletagmanager.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2019-12-19 13:52:02,412 INFO o.a.j.p.h.p.Proxy: [59453]  KeyStore for SSL loaded OK and put host 'fonts.googleapis.com' in map with key (fonts.googleapis.com)
+2019-12-19 13:52:02,438 WARN o.a.j.p.h.p.Proxy: [59453]  Problem with SSL certificate for url  for 'fonts.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2019-12-19 13:52:02,529 INFO o.a.j.p.h.p.ProxyControl: [59505]  Creating entry cdn.livechatinc.com in E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2019-12-19 13:52:04,024 ERROR o.a.j.p.h.p.Proxy: [59513]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:04,252 ERROR o.a.j.p.h.p.Proxy: [59510]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:04,266 ERROR o.a.j.p.h.p.Proxy: [59509]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:04,457 ERROR o.a.j.p.h.p.Proxy: [59514]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:04,460 ERROR o.a.j.p.h.p.Proxy: [59508]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:04,754 ERROR o.a.j.p.h.p.Proxy: [59518]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:05,080 ERROR o.a.j.p.h.p.Proxy: [59520]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:05,514 ERROR o.a.j.p.h.p.Proxy: [59526]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:05,769 ERROR o.a.j.p.h.p.Proxy: [59531]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:05,923 ERROR o.a.j.p.h.p.Proxy: [59522]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:06,279 ERROR o.a.j.p.h.p.Proxy: [59534]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:06,322 ERROR o.a.j.p.h.p.Proxy: [59538]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:06,658 ERROR o.a.j.p.h.p.Proxy: [59540]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:06,890 INFO o.a.j.p.h.p.Proxy: [59505]  KeyStore for SSL loaded OK and put host 'cdn.livechatinc.com' in map with key (cdn.livechatinc.com)
+2019-12-19 13:52:06,916 ERROR o.a.j.p.h.p.Proxy: [59544]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:06,917 WARN o.a.j.p.h.p.Proxy: [59505]  Problem with SSL certificate for url  for 'cdn.livechatinc.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2019-12-19 13:52:07,080 ERROR o.a.j.p.h.p.Proxy: [59546]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:07,282 ERROR o.a.j.p.h.p.Proxy: [59536]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:07,513 ERROR o.a.j.p.h.p.Proxy: [59550]  Exception when processing sample
+org.jsoup.UncheckedIOException: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.CharacterReader.<init>(CharacterReader.java:43) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.initialiseParse(TreeBuilder.java:38) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.HtmlTreeBuilder.initialiseParse(HtmlTreeBuilder.java:65) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:46) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.parser.Parser.parse(Parser.java:107) ~[jsoup-1.12.1.jar:?]
+	at org.jsoup.Jsoup.parse(Jsoup.java:58) ~[jsoup-1.12.1.jar:?]
+	at org.apache.jmeter.protocol.http.proxy.FormCharSetFinder.addFormActionsAndCharSet(FormCharSetFinder.java:56) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.addFormEncodings(Proxy.java:604) ~[ApacheJMeter_http.jar:5.2.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:240) [ApacheJMeter_http.jar:5.2.1]
+Caused by: java.io.IOException: Input is binary and unsupported
+	at org.jsoup.UncheckedIOException.<init>(UncheckedIOException.java:11) ~[jsoup-1.12.1.jar:?]
+	... 10 more
+2019-12-19 13:52:21,908 INFO o.a.j.p.h.p.ProxyControl: [59606]  Creating entry aus5.mozilla.org in E:\sdet_training\JMeter\apache-jmeter-5.2.1\bin\proxyserver.jks
+2019-12-19 13:52:24,520 INFO o.a.j.p.h.p.Proxy: [59606]  KeyStore for SSL loaded OK and put host 'aus5.mozilla.org' in map with key (aus5.mozilla.org)
+2019-12-19 13:52:24,545 WARN o.a.j.p.h.p.Proxy: [59606]  Problem with SSL certificate for url  for 'aus5.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2019-12-19 13:54:10,699 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2019-12-19 14:10:16,315 INFO o.a.j.s.FileServer: Set new base='C:\Users\SONY\AppData\Local\Temp'
