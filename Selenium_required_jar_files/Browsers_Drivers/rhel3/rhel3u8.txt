@@ -1,0 +1,17 @@
+Support OS:
+RedHat Enterprise Linux 3 Update 8 i386
+RedHat Enterprise Linux 3 Update 8 x86_64
+
+Steps:
+1. Boot with update CD.
+2.1 If you want to install 32bit version, please press ENTER.
+2.2 If you want to install 64bit version, please type linux64 and press ENTER.
+3. Choose a Language and press ENTER.
+4. Select Keyboard Type and press ENTER.
+5. Change disc to RHEL3 U8 original installation CD1 and select "Local CDROM".
+
+Known Issues:
+1. SUT selects minimal installation in default.
+
+MD5SUM
+1f92d3e16ca763ed6c6e7261c93958a4	rhel3u8.iso

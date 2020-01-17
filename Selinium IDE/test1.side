@@ -1,0 +1,181 @@
+{
+  "id": "323e8bcf-eabb-4d26-9576-32608f228172",
+  "version": "2.0",
+  "name": "test1",
+  "url": "https://opensource-demo.orangehrmlive.com",
+  "tests": [{
+    "id": "0efc05cd-d717-4975-a219-1aacff3adac0",
+    "name": "test",
+    "commands": [{
+      "id": "f3c68654-254c-4135-8347-d5479e9b9504",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ff1179a-0ae1-4ff2-82ab-1418919c94b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d3bd0dc-5476-41c1-8e02-1413ef28afe8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_recruitment_viewRecruitmentModule > b",
+      "targets": [
+        ["css=#menu_recruitment_viewRecruitmentModule > b", "css:finder"],
+        ["xpath=//a[@id='menu_recruitment_viewRecruitmentModule']/b", "xpath:idRelative"],
+        ["xpath=//li[5]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Recrutement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e800cd7-3675-4596-8ddd-5460e26de71d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_time_viewTimeModule > b",
+      "targets": [
+        ["css=#menu_time_viewTimeModule > b", "css:finder"],
+        ["xpath=//a[@id='menu_time_viewTimeModule']/b", "xpath:idRelative"],
+        ["xpath=//li[4]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Temps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5089735-8def-41fa-86a0-25101593bbbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=ol",
+      "targets": [
+        ["css=ol", "css:finder"],
+        ["xpath=//form[@id='employeeSelectForm']/fieldset/ol", "xpath:idRelative"],
+        ["xpath=//ol", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba28aab0-e395-480f-b2b5-2d6439de791a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_recruitment_viewRecruitmentModule > b",
+      "targets": [
+        ["css=#menu_recruitment_viewRecruitmentModule > b", "css:finder"],
+        ["xpath=//a[@id='menu_recruitment_viewRecruitmentModule']/b", "xpath:idRelative"],
+        ["xpath=//li[5]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Recrutement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1faa61a6-5ace-4747-a851-dec4654c7555",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSrch",
+      "targets": [
+        ["id=btnSrch", "id"],
+        ["name=btnSrch", "name"],
+        ["css=#btnSrch", "css:finder"],
+        ["xpath=//input[@id='btnSrch']", "xpath:attributes"],
+        ["xpath=//form[@id='frmSrchCandidates']/fieldset/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5973c19-444c-4be8-8e26-354ec802b9c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=candidateSearch_modeOfApplication",
+      "targets": [
+        ["id=candidateSearch_modeOfApplication", "id"],
+        ["name=candidateSearch[modeOfApplication]", "name"],
+        ["css=#candidateSearch_modeOfApplication", "css:finder"],
+        ["xpath=//select[@id='candidateSearch_modeOfApplication']", "xpath:attributes"],
+        ["xpath=//form[@id='frmSrchCandidates']/fieldset/ol/li[9]/select", "xpath:idRelative"],
+        ["xpath=//li[9]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'All\nManual\nOnline')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cd82709-1953-4929-8beb-e6c32e8ce269",
+      "comment": "",
+      "command": "click",
+      "target": "id=candidateSearch_modeOfApplication",
+      "targets": [
+        ["id=candidateSearch_modeOfApplication", "id"],
+        ["name=candidateSearch[modeOfApplication]", "name"],
+        ["css=#candidateSearch_modeOfApplication", "css:finder"],
+        ["xpath=//select[@id='candidateSearch_modeOfApplication']", "xpath:attributes"],
+        ["xpath=//form[@id='frmSrchCandidates']/fieldset/ol/li[9]/select", "xpath:idRelative"],
+        ["xpath=//li[9]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'All\nManual\nOnline')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71487be2-01c8-41c1-b8e7-b89d08e960b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=candidateSearch_toDate",
+      "targets": [
+        ["id=candidateSearch_toDate", "id"],
+        ["name=candidateSearch[dateApplication][to]", "name"],
+        ["css=#candidateSearch_toDate", "css:finder"],
+        ["xpath=//input[@id='candidateSearch_toDate']", "xpath:attributes"],
+        ["xpath=//form[@id='frmSrchCandidates']/fieldset/ol/li[8]/input", "xpath:idRelative"],
+        ["xpath=//li[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d28fa30-1716-4dc2-880b-db31474633e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=candidateSearch_status",
+      "targets": [
+        ["id=candidateSearch_status", "id"],
+        ["name=candidateSearch[status]", "name"],
+        ["css=#candidateSearch_status", "css:finder"],
+        ["xpath=//select[@id='candidateSearch_status']", "xpath:attributes"],
+        ["xpath=//form[@id='frmSrchCandidates']/fieldset/ol/li[4]/select", "xpath:idRelative"],
+        ["xpath=//li[4]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'All\nApplication Initiated\nShortlisted\nInterview Scheduled\nInterview Passed\nInterview Failed\nJob Offered\nOffer Declined\nRejected\nHired')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ff89213-35c9-47c2-83b9-6046326fd314",
+      "comment": "",
+      "command": "select",
+      "target": "id=candidateSearch_status",
+      "targets": [],
+      "value": "label=Shortlisted"
+    }, {
+      "id": "4cd2308f-c03c-45a9-85e2-297b40a777bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=candidateSearch_status",
+      "targets": [
+        ["id=candidateSearch_status", "id"],
+        ["name=candidateSearch[status]", "name"],
+        ["css=#candidateSearch_status", "css:finder"],
+        ["xpath=//select[@id='candidateSearch_status']", "xpath:attributes"],
+        ["xpath=//form[@id='frmSrchCandidates']/fieldset/ol/li[4]/select", "xpath:idRelative"],
+        ["xpath=//li[4]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'All\nApplication Initiated\nShortlisted\nInterview Scheduled\nInterview Passed\nInterview Failed\nJob Offered\nOffer Declined\nRejected\nHired')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5dc10876-58aa-4ce2-acb7-5359e71d5e0d",
+    "name": "t1",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "8ae08f02-7891-4fa7-98d6-0391c25ae52b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0efc05cd-d717-4975-a219-1aacff3adac0"]
+  }],
+  "urls": ["https://opensource-demo.orangehrmlive.com/"],
+  "plugins": []
+}

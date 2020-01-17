@@ -1,0 +1,3 @@
+The JMB363 Option-Rom is for the Add-on Cards.
+
+For JMB36x on board customers, please contact with your motherboard manufacturer for the system BIOS update.

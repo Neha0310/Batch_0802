@@ -1,0 +1,14 @@
+Support OS:
+Red Hat 9 i386
+
+Steps:
+1. Boot with update CD.
+2. Choose a Language and press ENTER.
+3. Select Keyboard Type and press ENTER.
+4. Change disc to RH9 original installation CD1 and select "Local CDROM".
+
+Known Issues:
+1. SUT selects minimal installation in default.
+
+MD5SUM
+e784f721fb0f0fbcb6652de1e7f96a28	rh9.iso

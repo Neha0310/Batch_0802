@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Selenium_1&apos; to &apos;Selenium_Web_Drivers&apos;" description="Rename resource &apos;Selenium_1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Selenium_1" name="Selenium_Web_Drivers" stamp="1575673616551" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Selenium_Web_Drivers&apos; to &apos;Selenium_Web_Driver&apos;" description="Rename resource &apos;Selenium_Web_Drivers&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Selenium_Web_Drivers" name="Selenium_Web_Driver" stamp="1575673806526" updateReferences="true"/>
+</session>

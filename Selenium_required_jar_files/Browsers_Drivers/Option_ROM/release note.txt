@@ -1,0 +1,194 @@
+
+v0.50    a. Initial version
+
+v0.55    a. Add ATAPI boot (no emulation mode)
+         b. Enhance User Interface - Highlight HDD and RAID relationship
+
+v0.57    a. Change PCIR class code to AHCI
+         b. Delete partition table after deleting RAID
+
+v0.58    a. Fix JBOD detection issue
+
+v0.59    a. seperate two operation mode, RAID & BASE
+         b. jmb363_v0.59_raid code will detect mode according CFG Reg#DFh Bit#0
+         c. jmb363_v0.59_base code can only run at base mode
+         d. extend ATAPI wait ready delay for some devices
+         e. Fix jmb360 FDD boot issue
+
+v0.64    a. Fix ASUS MB's interrupt pending issue
+
+v0.90    a. Fix MS-DOS 6.22 boot issue
+         b. Fix Mirror SyncFlag mismatch issue
+         c. Add Create RAID Help
+         d. Remove 1 HDD JBOD option
+
+v0.91    a. Add a field in JMicron RAID Sector to support OS mirror
+
+v0.92    a. Fix AOpen DVD compataibility issue
+
+v0.93    a. Add device detection animated cursor
+
+v0.94    a. Modify CD floppy emulation boot flow
+         b. Fix ECS' CDRW compatibility issue
+
+v0.95    a. Fix v0.94 floppy emulation bug
+
+v0.96    a. Fix floppy emulation warn reboot issue
+         b. Fix RAID 0+1 un-sync. flag problem
+
+v0.97    a. Add new option, [Repaire Mirror Conflict]
+            It deals with the un-concurrent member lost of Mirror Raid
+            Let users choose which hard disk to be source disk,
+            The Driver will try to Rebuild by the chosen one
+v0.97b   a. fix the bug of v0.97, if you create Raid0+1, then the procedure 
+            added in v0.97 forget pop the stack back.
+
+v0.98    a. change the message of <Repair Mirror Conflict>
+         b. detect the DF register to modify the amplitude of signle,
+            (named it as "Trace_Length" Assembler condition)
+         c. detect the Degrade/Rebuild Volume, give a message to users to 
+            rebuild the raid in the operation system
+
+v0.98b   a. fixed the side effect of v0.98, when you go into GUI mode. when you choose save 
+            the configuration, even do nothing else. The BIOS will clean the partition table.
+
+v0.99a.  a. for Shierly's request,clean the partition table, when "delete raid" or 
+            "Revert to Non-Raid". The only exception is that the orignal raid type is Mirror.
+            At the past, only when users "Create a Raid", the BIOS will clean the partition
+            table. 
+
+            PS. However, I think that it will have confilict in the feature, when we try to make a 
+               matrix raid. In my opinion, the Best way is not to do this. Or use the another way to 
+               set the degenerate mirror part as a single JBOD raid, however this will cause another 
+               problem. The users will see the un-predict Raid Volume. 
+               The main cause of this problem to keep the mirror(ever exist) partition table,is that 
+               we must to deal with a Raid Volume which not exist now.
+         b. added the source code section, to change the sub-vendor ID, sub-device ID
+            ,named as "AGENT" Assembler condition
+         c. for MSI's issue, go to check the AHCI, if the sata link active. To shorten the detect time.
+
+v0.99b.  a. ifndef JM2S, disable sata port1. This procedure prevent the JM361 to detect the SATA Port 1.
+
+v1.00    a. add function "Rebuild Mirror Drive"
+         b. tell the user if the hdd support 3G
+
+v1.01    a. improve the raid disk status update
+         b. add function to rebuild Degrade raid disk
+         c. to fix the hdd detection issue of JMB360
+         d. fix bug of "Solve Mirror Conflict", this problem happen at v1.00
+
+v1.02    a. modify the help message for "Create Raid Drive"
+         b. detect register, to switch to IDE/AHCI/RAID mode
+         c. added a error message, when Rebuild fail. At last version, if there were error
+            at rebuilding process, It will hold on. Now, we pop a window message to tell users 
+            the rebuilding not success.
+
+v1.03    a. fix the bug of version 1.02, the <b> item, it not work at version 1.02.
+            at version 1.03, it works
+         b. for multi-function, jump out of Option ROM, do nothing
+
+v1.04    a. use bit mask to modify the amplitude of signal
+         b. solve the problem of external hdd box    >_<
+         c. "support 3G" or not, instead of the hard disk work at which level.
+            I give an identify device command to get the real hard disk ability.
+
+v1.05    a. for ASUS's request, if bit 4c[4] set, disable PATA RAID
+         b. for GIGA-BYTE's request, modify the vendor string, and <ctrl+G>,
+            assembler condition is to define GIGABYTE=1
+         c. for ASUS's request about JMB360, fix the bug in version 1.03, 1.04
+
+v1.06    At first, there are many difference between v1.05 and v1.06, because GIGABYTE need to swith 
+         channel for PATA & SATA channel. It cause that the Option ROM needs to adjust in many place.
+         a. fixed bug, dfh register [1:0] write 01h, can not correctly response to IDE mode
+         b. if Main BIOS set bit 6 of dfh register, the JMicron controller(361/3/5/6), will switch to
+            multi-function, the topology of multi-function is -----
+            AHCI in function 0;
+            IDE in the function 1; PATA hdd will use Primary channel, SATA HDD will use Secondary channel
+         c. defind 4fh register bit [0] to choose channel type
+         d. defind 4fh register bit [1] to show/hide message
+         e. defind 4fh register bit [3:2] to choose ctrl+j speed
+         f. the gigabyte option, just different with other in "GIGABYTE" string
+           it is decided by assembler condition.
+v1.06.5  a. fix fedoro reboot bug, this issue cause by int13h function 48h
+v1.06.51 a. fix udma set furture, this issue may happen in multi-function, in JMB365, JMB366, JMB363
+           when this issue happen, will cause hdd maybe not transfer data using udma mode normally,
+           however, dma and pio not be affected.
+
+v1.06.53 a. the pata hdd information not display "support 3G:NO" string
+         b. if pata mask, Not show "raid 0+1" string
+         c. modify default raid name to "GRAID" for GIGABYTE
+         d. v1.06.53 already can work in GIGABYTE's mainboard
+
+v1.06.54 a. AHCI mode doesn't show "No-Raid"
+         b. when GPIO1=1 can work normally
+
+v1.06.55 a. fix change of the basic unit for driver
+         b. address 47h of PCI configuration space, write 0f1h instead of 0f0h (for ASUS ODD)
+         c. for JF's request, write 0fh at address 5ah of PCI configuration space, to clean the value
+         d. when the controller is not be operated in Raid mode, I still to check the raid structure.
+            If there is any raid structure existing. Remind the users.
+         e. fix the bug of Rebuilding Mirror Drive
+         f. Compact Flash Card boot/access support
+         g. fix the detection of Segate hdd, (using COMRESET)
+
+v1.06.56 a. xor detection, if the same channel has detect a Hdd, the Odd detection will ignore the channel
+         b. Reading the Status register before enable interrupt (card_int_on)
+
+1.06.57  a. ZIP Floppy boot, access support
+         b. LS-120 boot, access support
+         c. if ODD DMA fail 7 times, next int 13h will start to assign PIO command instead of UDMA command packet
+
+1.06.58  a. patch the Hitachi ODD: memory overflow error (at slave position)
+         b. using retf, instead of int 18h function call (for MSI Realteck Network IC)
+
+1.06.59  a. M-System boot support
+1.06.60  a. CF card uses the same CHS transfer rule with M-System. (X: not suggested)
+1.06.60a a. CF card support CHS Support, few CF cards not support LBA mode
+1.06.60b a. Disable Sata Port1 at the controller, which not has sata port1
+1.06.61  a. for JMB361 Controller, because CLEVO use pheonix bios, it needs twice checksum of pnp structure.
+1.06.62	 a.Support Hdd set security freeze lock command  requested by ASUS.
+ 				 b.Add ROM version in Pnp Option ROM Header.
+1.06.63  a.Build BCV/BEV independent on Pnp Installation check stucture
+         b.Clear checksumbyte of Pnp expansion header before building any BCV/BEV
+1.06.64  a.Fix JMB360 fails to install Vistal with in-house's AHCI driver reported by ASUS.
+1.06.65  a.Update JMB368 Bootrom class code to 0101.
+
+1.06.66  a.Not reference to multi-function trap bit, GPIO0., 
+           to fix WinXP blue screen issue.
+	 b.Set video mode to mode 3 at Option ROM entry.
+
+         c.Fix coding error induced device parity error interrupt.
+
+         d.Use R4Eh bit[0] to decide whether enter RAID Setu Menu or not
+ 
+1.06.67  a.Support raid un-integrity caused by remaping 
+           from single to stripe breaking.
+1.06.68	 a.Fixed stripe 0 remapping from Port 1 hdd to Port 0 hdd failing to read disk.
+
+1.06.69	 a.Using ATA Device Reset command instead of SRST to ATAPI device.
+         b.Replace space charcter by NULL character in jm_model field
+           to fix Linux raid failing to boot issue.
+
+1.06.70	 a.Fixed failing to boot Vista when PATA hdd uses 40 pin cable.
+
+1.06.71	 a.Expand JMB368 Option ROM size
+         b.Fixed multi-function PATA cable detection codeing error.
+         c.Pop up a window to ask user whether to del MBR on deleting Mirror RAID
+	 d.Add Sandisk Serial Number Header Data Structure support         
+
+1.06.72  a.Randomize MBR.Disk_Signature while deleting MBR
+
+1.06.73  a.Randomize MBR.Disk_Signature while creating a new RAID
+
+1.06.74  a.Patch INT 1Ah issue of ECS Notebook using Phoenix BIOS.
+         b.Fixed mirror rebuild issue on nVidia C55 north bridge.
+         c.Hide cursor in RAID setup utility.
+1.06.75
+	 a.Fixed hdd programmed under wrong UDMA mode.
+	 b.Add option rom revisin info in rom header.
+1.06.79
+         a.Fix option rom for some special optical disk which assert interrupt abnormally.
+
+1.07.00  a.Add retry to fix pio read the last sector of Segate 1500BG on reboot.
+
+	 b.Add checking PxSERR.X Exchanged bit to see whether device present.
